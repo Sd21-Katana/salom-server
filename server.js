@@ -1,7 +1,7 @@
 const http = require("http");
 
 const PORT = process.env.PORT || 3000;
-const MATN = process.env.SALOM_MATN || "Salom! Bu sayt Railway serverida ishlayapti";
+const MATN = process.env.SALOM_MATN || "Yangi versiya! GitHub'ga yukladim — Railway o'zi yangiladi";
 
 const sahifa = () => `<!doctype html><html lang="uz"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Salom server</title>
